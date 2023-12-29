@@ -15,7 +15,7 @@ public class SalaryCalculator {
         }else if (salary > 20000) {
             afterTaxes = salary - (salary * 0.20);
             System.out.println(afterTaxes);
-        } else if (salary < 0) {
+        } else if (salary <= 0) {
             System.out.println("wrong input!");
         }
     }

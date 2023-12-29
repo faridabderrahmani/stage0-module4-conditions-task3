@@ -4,7 +4,7 @@ public class Divider {
     public static void main(String[] args) {
 
     }
-    public void isDividableBy5And11(int number) {
+    public static void isDividableBy5And11(int number) {
         if(number%5 == 0 && number%11 == 0){
             System.out.println("Dividable");
         }else {
