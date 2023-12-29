@@ -6,7 +6,7 @@ public class SalaryCalculator {
     }
     public void calculateSalary(int salary) {
         double afterTaxes;
-        if(salary <= 10000){
+        if(salary <= 10000 && salary > 0){
             afterTaxes = salary - (salary * 0.15);
             System.out.println(afterTaxes);
         }else if (salary > 10000 && salary <= 20000) {
